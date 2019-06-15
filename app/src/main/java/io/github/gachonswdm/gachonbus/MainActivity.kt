@@ -1,19 +1,19 @@
 package io.github.gachonswdm.gachonbus
 
+/*
+    @name Main
+    @author Minjae Seon
+    @date 2019.06.15
+ */
+
 import android.os.Bundle
-import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import io.github.gachonswdm.gachonbus.fragment.MainFragment
 import io.github.gachonswdm.gachonbus.fragment.SettingFragment
 import io.github.gachonswdm.gachonbus.fragment.TimelineFragment
-
-/*
-    @name Main
-    @author Minjae Seon
-    @date 2019.06.15
- */
+import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity() {
     private var backPressedTime: Long = 0
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
         else {
             backPressedTime = tempTime
-            Toast.makeText(this, getString(R.string.backToast), Toast.LENGTH_LONG).show()
+            toast(R.string.backToast)
         }
     }
 
