@@ -5,13 +5,18 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 
+/*
+    @name Splash
+    @author Woojin Wie
+    @date 2019.06.15
+ */
+
 class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
     private val splashDelay: Long = 2000 //2 seconds
 
     private val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
-
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
             finish()

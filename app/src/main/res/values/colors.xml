@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!-- Color from Gachon University Logo -->
+    <color name="colorPrimary">#00A6CF</color>
+    <color name="colorPrimaryDark">#29447B</color>
+    <color name="colorAccent">#75B02F</color>
 </resources>
