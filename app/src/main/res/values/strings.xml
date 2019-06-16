@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gachon BUS</string>
+    <string name="app_name">가천버스</string>
     <string name="title_main">메인</string>
     <string name="title_timeline">시간표</string>
     <string name="title_setting">설정</string>
