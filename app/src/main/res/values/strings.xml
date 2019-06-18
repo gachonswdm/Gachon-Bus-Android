@@ -13,4 +13,7 @@
     <string name="setting_developer_desc">About Gachon BUS\'s Developer.</string>
     <string name="setting_github_title">Github</string>
     <string name="setting_github_desc">Gachon BUS\'s Github Repository</string>
+
+    <!--ActionBarTitle-->
+    <string name="timelineActionBarTitle">Timeline</string>
 </resources>
