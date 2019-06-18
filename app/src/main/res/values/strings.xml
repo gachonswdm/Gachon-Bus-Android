@@ -1,10 +1,16 @@
 <resources>
-    <string name="app_name">가천버스</string>
-    <string name="title_main">메인</string>
-    <string name="title_timeline">시간표</string>
-    <string name="title_setting">설정</string>
-    <string name="backToast">\'뒤로\' 버튼을 한번 더 누르시면 종료됩니다.</string>
-    <string name="permission_notice">위치 정보를 통해 가장 가까운 정류장을 찾기 위해 권한 수락이 필요합니다.</string>
-    <string name="permission_denied">원활한 앱 사용을 위한 권한을 수락해주세요!\n[권한]에서 설정하실 수 있습니다.</string>
-    <string name="timeline_text">첫차 : 8시 40분 / 막차 : 17시 15분\n점심 시간 : 11시 45분 ~ 13시 00분\n평균 배차 간격 : 15분 (8시 40분 ~ 9시 사이에는 약 4분)\n출처 : 가천대학교 공식 페이스북</string>
+    <string name="app_name">Gachon BUS</string>
+    <string name="title_main">Main</string>
+    <string name="title_timetable">Timetable</string>
+    <string name="title_setting">Setting</string>
+    <string name="backToast">Press \'Back\' button again to exit.</string>
+    <string name="permission_notice">Permission is required to find the nearest stop via location information.</string>
+    <string name="permission_denied">Please accept the permission to use the app properly!\nYou can set it in [Permissions].</string>
+
+    <!-- SettingFragment -->
+    <string name="settingcategory_info_title">Infomation</string>
+    <string name="setting_developer_title">Developer</string>
+    <string name="setting_developer_desc">About Gachon BUS\'s Developer.</string>
+    <string name="setting_github_title">Github</string>
+    <string name="setting_github_desc">Gachon BUS\'s Github Repository</string>
 </resources>

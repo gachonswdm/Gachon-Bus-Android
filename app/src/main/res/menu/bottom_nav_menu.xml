@@ -7,9 +7,9 @@
             android:title="@string/title_main"/>
 
     <item
-            android:id="@+id/navigation_timeline"
+            android:id="@+id/navigation_timetable"
             android:icon="@drawable/ic_directions_bus_black_24dp"
-            android:title="@string/title_timeline"/>
+            android:title="@string/title_timetable"/>
 
     <item
             android:id="@+id/navigation_setting"

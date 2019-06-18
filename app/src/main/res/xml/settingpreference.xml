@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+                                      xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+       app:key="infomation"
+       app:title="@string/settingcategory_info_title">
+        <Preference app:key="developer"
+                    app:title="@string/setting_developer_title"
+                    app:summary="@string/setting_developer_desc"
+                    app:icon="@drawable/ic_people_black_24dp"/>
+        <Preference app:key="github"
+                    app:title="@string/setting_github_title"
+                    app:summary="@string/setting_github_desc"
+                    app:icon="@drawable/ic_github_mark" >
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="https://github.com/gachonswdm/Gachon-Bus-Android"/>
+        </Preference>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

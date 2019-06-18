@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">가천버스</string>
+    <string name="title_main">메인</string>
+    <string name="title_timetable">시간표</string>
+    <string name="title_setting">설정</string>
+    <string name="backToast">\'뒤로\' 버튼을 한번 더 누르시면 종료됩니다.</string>
+    <string name="permission_notice">위치 정보를 통해 가장 가까운 정류장을 찾기 위해 권한 수락이 필요합니다.</string>
+    <string name="permission_denied">원활한 앱 사용을 위한 권한을 수락해주세요!\n[권한]에서 설정하실 수 있습니다.</string>
+
+    <!-- SettingFragment -->
+    <string name="settingcategory_info_title">정보</string>
+    <string name="setting_developer_title">개발자</string>
+    <string name="setting_developer_desc">가천버스의 개발자 정보를 확인합니다.</string>
+    <string name="setting_github_title">Github</string>
+    <string name="setting_github_desc">가천버스의 Github 저장소를 확인합니다.</string>
+</resources>

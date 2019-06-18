@@ -18,7 +18,7 @@ import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
 import io.github.gachonswdm.gachonbus.fragment.MainFragment
 import io.github.gachonswdm.gachonbus.fragment.SettingFragment
-import io.github.gachonswdm.gachonbus.fragment.TimelineFragment
+import io.github.gachonswdm.gachonbus.fragment.TimetableFragment
 import io.github.gachonswdm.gachonbus.util.LocationUtil.Companion.startUserLocationUpdate
 import org.jetbrains.anko.toast
 
@@ -49,8 +49,8 @@ open class MainActivity : AppCompatActivity() {
                 replaceFragment(MainFragment())
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_timeline -> {
-                replaceFragment(TimelineFragment())
+            R.id.navigation_timetable -> {
+                replaceFragment(TimetableFragment())
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_setting -> {
