@@ -12,8 +12,18 @@
                     app:title="@string/setting_github_title"
                     app:summary="@string/setting_github_desc"
                     app:icon="@drawable/ic_github_mark" >
+
             <intent android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/gachonswdm/Gachon-Bus-Android"/>
+                    android:data="https://github.com/gachonswdm/Gachon-Bus-Android" />
+        </Preference>
+
+        <Preference app:key="opensource"
+                    app:title="@string/setting_opensource_title"
+                    app:summary="@string/setting_opensource_desc"
+                    app:icon="@drawable/ic_comment_black_24dp" >
+
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="https://github.com/gachonswdm/Gachon-Bus-Android" />
         </Preference>
     </PreferenceCategory>
 </androidx.preference.PreferenceScreen>

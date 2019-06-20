@@ -8,12 +8,14 @@
     <string name="permission_denied">Please accept the permission to use the app properly!\nYou can set it in [Permissions].</string>
 
     <!-- SettingFragment -->
-    <string name="settingcategory_info_title">Infomation</string>
+    <string name="settingcategory_info_title">Information</string>
     <string name="setting_developer_title">Developer</string>
     <string name="setting_developer_desc">About Gachon BUS\'s Developer.</string>
     <string name="setting_github_title">Github</string>
     <string name="setting_github_desc">Gachon BUS\'s Github Repository</string>
+    <string name="setting_opensource_title">Open-Source Notice</string>
+    <string name="setting_opensource_desc">Gachon BUS\'s Open-Source Notice</string>
 
     <!--ActionBarTitle-->
-    <string name="timelineActionBarTitle">Timeline</string>
+    <string name="timetableActionBarTitle">Timeline</string>
 </resources>
