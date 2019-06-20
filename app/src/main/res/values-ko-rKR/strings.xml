@@ -14,7 +14,9 @@
     <string name="setting_developer_desc">가천버스의 개발자 정보를 확인합니다.</string>
     <string name="setting_github_title">Github</string>
     <string name="setting_github_desc">가천버스의 Github 저장소를 확인합니다.</string>
+    <string name="setting_opensource_title">오픈소스 정보</string>
+    <string name="setting_opensource_desc">가천버스의 오픈소스 정보를 확인합니다.</string>
 
     <!--ActionBarTitle-->
-    <string name="timelineActionBarTitle">시간표</string>
+    <string name="timetableActionBarTitle">시간표</string>
 </resources>
