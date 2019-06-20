@@ -30,4 +30,8 @@ dependencies {
     implementation "org.jetbrains.anko:anko:$anko_version"
     implementation 'gun0912.ted:tedpermission:2.2.2'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.github.vipulasri:timelineview:1.1.0'
 }

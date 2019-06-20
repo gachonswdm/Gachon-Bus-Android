@@ -9,3 +9,9 @@ Real-time Infomation System for Gachon University Electric Bus 'Mudangi' - Andro
 * TedPermission - https://github.com/ParkSangGwon/TedPermission
 
 * Google Play Services (Google Location and Activity Recognition) - https://developers.google.com/android/
+
+* Retrofit 2 - https://github.com/square/retrofit
+
+* Gson - https://github.com/google/gson
+
+* Timeline-View - https://github.com/vipulasri/Timeline-View
