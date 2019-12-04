@@ -4,7 +4,7 @@ Real-time Infomation System for Gachon University Electric Bus 'Mudangi' - Andro
 ## Open-Source Libraries
 * Android Jetpack - https://developer.android.com/jetpack
 
-(Will be removed, because deprecated) ~~* Anko - https://github.com/Kotlin/anko~~
+* (Will be removed, because deprecated) ~~Anko - https://github.com/Kotlin/anko~~
 
 * TedPermission - https://github.com/ParkSangGwon/TedPermission
 
